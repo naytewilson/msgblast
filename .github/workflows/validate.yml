@@ -24,6 +24,9 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Verify generated artifact symlink ignores
+        run: bash tests/test-gitignore-symlinks.sh .
+
       - name: Install pinned installer libraries and worker dependencies
         run: bash scripts/cloud-agent-install.sh
 

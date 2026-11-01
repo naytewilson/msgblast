@@ -1,11 +1,11 @@
-.build/
-build/
+.build
+build
 .DS_Store
 *.xcuserstate
-xcuserdata/
-__pycache__/
+xcuserdata
+__pycache__
 *.pyc
-tmp/
+tmp
 .env
 .env.*
 !.env.example
@@ -28,4 +28,4 @@ output/app-icons/*
 
 # Machine-specific permission-test configuration and raw proof stay private.
 permission-testing.local.json
-.permission-test-receipts/
+.permission-test-receipts
