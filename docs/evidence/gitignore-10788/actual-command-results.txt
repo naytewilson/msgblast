@@ -1,0 +1,6 @@
+Evidence-SHA: e4ba5d1274731c9cbfadc134b97f370a06d80fa3
+
+Control: directory-only .build/ -> git status: ?? .build
+Corrected: .build -> git check-ignore: .gitignore:1:.build	.build
+Corrected: .build -> git status: (empty)
+PASS: 10 artifact symlink+directory rules, 3 tracked ignore files, negative control
